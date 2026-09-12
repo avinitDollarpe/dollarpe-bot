@@ -1,3 +1,15 @@
+# centaur-acme (infra / on-call overlay)
+
+Fork customized for infrastructure and on-call:
+
+- tool: `tools/infra_status` (`infra-status` CLI)
+- skill: `.agents/skills/incident-response`
+- workflow: `workflows/daily_infra_brief.py`
+- sandbox prompt: `services/sandbox/SYSTEM_PROMPT.md`
+
+Sample data only until you wire real systems.
+
+
 <img width="1500" height="500" alt="Centaur banner" src="https://github.com/user-attachments/assets/cc85cdb1-5a72-4eb2-ba1b-2e0a8fbbf691" />
 
 <h4 align="center">
