@@ -1,13 +1,13 @@
 [project]
-name = "infra-status"
+name = "dollarpe-ops"
 version = "0.1.0"
-description = "Sample infra / on-call status tool for the Centaur overlay"
+description = "DollarPe Bot ops status over Nebula/Nova/Stargate/Horizon and friends"
 requires-python = ">=3.11"
 license = "Apache-2.0 OR MIT"
 dependencies = ["click>=8.1.7"]
 
 [project.scripts]
-infra-status = "centaur_tool_infra_status.cli:main"
+dollarpe-ops = "centaur_tool_dollarpe_ops.cli:main"
 
 [tool.centaur]
 module = "client.py"
@@ -16,7 +16,7 @@ module = "client.py"
 packages = ["."]
 
 [tool.hatch.build.targets.wheel.sources]
-"." = "centaur_tool_infra_status"
+"." = "centaur_tool_dollarpe_ops"
 
 [build-system]
 requires = ["hatchling"]

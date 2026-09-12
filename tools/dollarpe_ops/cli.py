@@ -9,7 +9,7 @@ from . import client
 
 @click.group()
 def main() -> None:
-    """Infra / on-call status helpers (sample data)."""
+    """DollarPe Bot ops helpers (sample fleet data)."""
 
 
 @main.command("list-services")
